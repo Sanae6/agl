@@ -19,6 +19,8 @@ add_library(agl OBJECT
   src/Utils/aglParameterStringMgr.cpp
   src/Utils/aglResCommon.cpp
   src/Utils/aglResParameter.cpp
+  src/aglDisplayList.cpp
+  src/aglDrawContext.cpp
 )
 
 target_compile_options(agl PRIVATE -fno-exceptions)
